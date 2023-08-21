@@ -35,7 +35,7 @@ function timer() {
                 orologioTimer.innerHTML = `${inputValue}:00`;
             }
             if (inputValue > 60) {
-                orologioTimer.innerHTML = `00:00  impostazione max 60 min`;
+                orologioTimer.innerHTML = `impostazione max 60 min`;
             }
             document.addEventListener('click', function (e) {
                 const el = e.target;
