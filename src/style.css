@@ -3,8 +3,17 @@
 }
 body{
     height: 100vh;
-    background: rgb(221,107,93);
-background: linear-gradient(90deg, rgba(221,107,93,1) 0%, rgba(220,186,186,0.9736395656895571) 100%);
+    background-color: #db9d84 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.title{
+font-size: 80px;
+color: white;
+font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #myInput{
     height: 60px;
@@ -12,17 +21,22 @@ background: linear-gradient(90deg, rgba(221,107,93,1) 0%, rgba(220,186,186,0.973
     font-size: 50px;
     border-radius: 10px;
     background-color: transparent;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
 }
 
-#myButton{
-    background-color:rgb(82, 82, 82);
-    color: white;
-}
-#myButton:hover{
-    background-color:rgb(77, 66, 64);
-    color: white;
-   
-}
 .timer{
-    font-size: 70px !important;
+    font-size: 220px !important;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px !important;
+   color: white;
+   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }

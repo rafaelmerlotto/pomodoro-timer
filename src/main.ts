@@ -33,8 +33,7 @@ function timer() {
                     orologioTimer.innerHTML = creareSecondi(secondi);
 
                     if (secondi == 0) {
-                        clearInterval(secondiTimer)
-                        console.log('timer scaduto')
+                        clearInterval(secondiTimer)           
                     }
                 }, 1000);
 
