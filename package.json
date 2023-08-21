@@ -1,0 +1,21 @@
+{
+  "name": "pomodoro-timer",
+  "version": "1.0.0",
+  "description": "timer pomodoro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "timer",
+    "pomodoro"
+  ],
+  "author": "Rafael Merlotto",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@types/node": "^20.5.1"
+  }
+}
